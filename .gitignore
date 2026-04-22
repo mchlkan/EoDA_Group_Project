@@ -3,6 +3,11 @@ __pycache__/
 *.py[codz]
 *$py.class
 
+
+# VS code specific files
+.vscode/
+.DS_Store
+
 # C extensions
 *.so
 
