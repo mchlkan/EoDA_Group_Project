@@ -1,0 +1,27 @@
+{
+  "lr": {
+    "C": 0.1,
+    "class_weight": "balanced",
+    "penalty": "l2",
+    "solver": "lbfgs"
+  },
+  "xgb": {
+    "subsample": 0.65,
+    "scale_pos_weight": 4,
+    "reg_lambda": 5,
+    "reg_alpha": 0.1,
+    "n_estimators": 500,
+    "min_child_weight": 15,
+    "max_depth": 6,
+    "learning_rate": 0.05,
+    "colsample_bytree": 0.6
+  },
+  "auc": {
+    "lr": 0.6421907129973952,
+    "xgb": 0.6520096289775927
+  },
+  "cv_context_seconds": {
+    "lr_gridsearch": 138.05648630599995,
+    "xgb_randomizedsearch": 6079.864166348
+  }
+}
